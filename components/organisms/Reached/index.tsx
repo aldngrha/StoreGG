@@ -1,4 +1,4 @@
-import ReachedItem from "../../molecules/ReachedItem";
+import ReachedItem from "../../atoms/ReachedItem";
 
 export default function Reached() {
   return (

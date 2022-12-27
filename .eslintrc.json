@@ -33,6 +33,7 @@
         "no-underscore-dangle": "off",
         "prettier/prettier": "error",
         "no-redeclare": "off",
+        "jsx-a11y/no-redundant-roles": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "jsx-a11y/label-has-associated-control": "off",
         "import/extensions": ["error", "ignorePackages", {

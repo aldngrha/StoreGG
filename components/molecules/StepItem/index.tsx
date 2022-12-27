@@ -5,7 +5,7 @@ interface StepIconProps {
   desc2: string;
 }
 
-export default function SetpItem({ icon, title, desc1, desc2 }: StepIconProps) {
+export default function StepItem({ icon, title, desc1, desc2 }: StepIconProps) {
   return (
     <div className="col-lg-4">
       <div className="card feature-card border-0">

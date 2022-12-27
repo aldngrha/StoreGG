@@ -1,5 +1,5 @@
 import CategoryItem from "../../molecules/CategoryItem";
-import TableRow from "../../molecules/TableRow";
+import TableRow from "../../molecules/TableRowRecent";
 
 export default function OverviewContent() {
   return (

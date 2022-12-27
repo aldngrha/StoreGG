@@ -1,5 +1,5 @@
 <svg
-                className="mb-30"
+                class="mb-30"
                 width="80"
                 height="80"
                 viewBox="0 0 80 80"
@@ -23,31 +23,31 @@
                   <path
                     d="M32 36H5"
                     stroke="white"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
                   <path
                     d="M27 45L9 45"
                     stroke="#B7B0F4"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
                   <rect x="56" y="37" width="49" height="75" rx="16" fill="#2B2467" />
                   <path
                     d="M97 50H70"
                     stroke="white"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
                   <path
                     d="M92 59L74 59"
                     stroke="#6B63AC"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
                 </g>
               </svg>

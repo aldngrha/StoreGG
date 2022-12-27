@@ -1,5 +1,5 @@
 <svg
-                className="mb-30"
+                class="mb-30"
                 width="80"
                 height="80"
                 viewBox="0 0 80 80"
@@ -23,23 +23,23 @@
                   <path
                     d="M50 46L50 68"
                     stroke="white"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
                   <path
                     d="M40 54L40 68"
                     stroke="#B7B0F4"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
                   <path
                     d="M30 60L30 68"
                     stroke="#B7B0F4"
-                    strokeWidth="4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
                   <circle cx="40" cy="26" r="14" fill="#2B2467" />
                   <path

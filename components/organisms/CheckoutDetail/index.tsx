@@ -1,5 +1,4 @@
-import PurchaseDetail from "../../atoms/CheckoutDetail/PurchaseDetail";
-import PaymentInformation from "../../atoms/CheckoutDetail/PaymentInformation";
+import Row from "../../atoms/CheckoutDetail";
 
 export default function CheckoutDetail() {
   return (
@@ -8,25 +7,22 @@ export default function CheckoutDetail() {
         <h2 className="fw-bold text-xl color-palette-1 mb-20">
           Purchase Details
         </h2>
-        <PurchaseDetail title="Your Game ID" detail="aldinugraha" />
-        <PurchaseDetail title="Order ID" detail="#GG001" />
-        <PurchaseDetail title="Item" detail="250K Steam Wallet" />
-        <PurchaseDetail title="Price" detail="Rp 350.000" />
-        <PurchaseDetail title="Tax (10%)" detail="Rp 35.000" />
-        <PurchaseDetail title="Total" detail="Rp 385.000" />
+        <Row label="Your Game ID" value="aldinugraha" />
+        <Row label="Order ID" value="#GG001" />
+        <Row label="Item" value="250K Steam Wallet" />
+        <Row label="Price" value="Rp 350.000" />
+        <Row label="Tax (10%)" value="Rp 35.000" />
+        <Row label="Total" value="Rp 385.000" className="color-palette-4" />
       </div>
       <div className="payment pt-md-50 pb-md-50 pt-10 pb-10">
         <h2 className="fw-bold text-xl color-palette-1 mb-20">
           Payment Informations
         </h2>
-        <PaymentInformation title="Your Account Name" detail="Aldi Nugraha" />
-        <PaymentInformation title="Type" detail="Worldwide Transfer" />
-        <PaymentInformation title="Bank Name" detail="Mandiri" />
-        <PaymentInformation
-          title="Bank Account Name"
-          detail="PT Store GG Indonesia"
-        />
-        <PaymentInformation title="Bank Number" detail="1800 - 9090 - 2021" />
+        <Row label="Your Account Name" value="Aldi Nugraha" />
+        <Row label="Type" value="Worldwide Transfer" />
+        <Row label="Bank Name" value="Mandiri" />
+        <Row label="Bank Account Name" value="PT Store GG Indonesia" />
+        <Row label="Bank Number" value="1800 - 9090 - 2021" />
       </div>
     </>
   );

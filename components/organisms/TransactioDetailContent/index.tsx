@@ -25,7 +25,7 @@ export default function TransactionDetailContent() {
                   </div>
                   <div>
                     <p className="fw-bold text-xl color-palette-1 mb-10">
-                      Mobile Legends:
+                      Dota 2:
                       <br /> The New Battle 2021
                     </p>
                     <p className="color-palette-2 m-0">Category: Mobile</p>
